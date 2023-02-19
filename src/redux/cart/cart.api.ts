@@ -6,6 +6,6 @@ export const getCartAPI=async()=>{
     return res.data
 }
 export const addItemToCartAPI= async(productId:number,quantity:number)=>{
-    let res:AxiosResponse<Cart> = await axios.post(`http://https://aggressive-pig-sombrero.cyclic.app/carts`,{productId,quantity})
+    let res:AxiosResponse<Cart> = await axios.post(`https://aggressive-pig-sombrero.cyclic.app/carts`,{productId,quantity})
     return res.data
 }
