@@ -5,7 +5,7 @@ import { Box } from "@chakra-ui/react";
 import CustomImage from "./CustomImage";
 import Cart from "./Cart";
 
-const Header = ():void => {
+const Header = () => {
   return (
     <Box
       height={{ base: "110px", sm: "144px" }}
